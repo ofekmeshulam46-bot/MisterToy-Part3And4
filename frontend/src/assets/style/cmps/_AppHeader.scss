@@ -1,0 +1,18 @@
+.app-header {
+  background-color: $clr1;
+  color: $clr1bg;
+  padding: 1em calc(1em + $layoutPadding);
+
+  .logo {
+    font-family: libre, sans-serif;
+    font-size: 6rem;
+  }
+
+  nav {
+    margin-block-end: 1em;
+
+    a:not(:first-of-type) {
+      margin-inline-start: 0.5em;
+    }
+  }
+}
